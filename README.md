@@ -2,22 +2,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/bassmastaLK/srpago-test">
-    <img src="img/favicon.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/bassmastaLK/srpago-test/blob/master/public/img/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Sr. Pago Test</h3>
+  <h1 align="center">Sr. Pago Test</h1>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
-    <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
+    Prueba de conocimientos para vacante de PHP Senior Developer con Sr. Pago.
   </p>
 </p>
 
