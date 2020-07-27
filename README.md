@@ -83,12 +83,16 @@ php artisan key:generate
 ```sh
 php artisan migrate
 ```
+7. Deploy the application.
+```sh
+php artisan serve
+```
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-If the previous steps didn't throw any error, start your server's Apache and MySQL services and the application should be working at [http://localhost/srpago-test/public/](http://localhost/srpago-test/public/).
+If the previous steps didn't throw any error, the application should be working at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
 In case of problems with the Migration / databases configuration, the dump files for manual import can be found [here](https://github.com/bassmastaLK/srpago-test/blob/master/public/db).
 
