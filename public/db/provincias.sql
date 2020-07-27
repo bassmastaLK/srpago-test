@@ -12,7 +12,7 @@ DROP TABLE IF EXISTS `provincias`;
 CREATE TABLE `provincias` (
   `id_provincia` smallint DEFAULT NULL,
   `provincia` varchar(30) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `provincias` (`id_provincia`, `provincia`) VALUES
 ('2', 'Albacete'),
