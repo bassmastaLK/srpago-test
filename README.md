@@ -61,15 +61,28 @@ To get a local copy up and running follow these simple steps.
 ```sh
 git clone https://github.com/bassmastaLK/srpago-test.git
 ```
-2. Install NPM packages
+2. Install NPM packages.
 ```sh
 npm install
 ```
-3. Install Composer packages
+3. Install Composer packages.
 ```sh
 composer install
 ```
+4. Allow the application to connect to your local databases:<br>
+&nbsp;&nbsp;&nbsp;4.1 Create a new database in your local database manager (phpMyAdmin / Sequel Pro / TablePlus).<br>
+&nbsp;&nbsp;&nbsp;4.2 Under the repo root directory, duplicate the <i>.env.example</i> file and name it <i>.env</i>.<br>
+&nbsp;&nbsp;&nbsp;4.3 Change this new file's DB_DATABASE value to match your new database's name (line 12).<br>
+&nbsp;&nbsp;&nbsp;4.4 If necessary, also edit the other database connection values, like username or password (lines 9 to 14).<br>
 
+5. Generate an application encryption key.
+```sh
+php artisan key:generate
+```
+6. Run a Laravel migration to create and populate the required tables.
+```sh
+php artisan migrate
+```
 
 
 <!-- USAGE EXAMPLES -->
