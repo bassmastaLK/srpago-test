@@ -51,15 +51,13 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+* You will need a Local Server to execute the PHP files (like XAMPP, MAMP).
 * npm
-```sh
-npm install npm@latest -g
-```
+* composer
 
 ### Installation
  
-1. Clone the repo
+1. Clone the repo directly under the public / htdocs folder of your Local Server (otherwise, the Maps API won´t work).
 ```sh
 git clone https://github.com/bassmastaLK/srpago-test.git
 ```
@@ -77,9 +75,11 @@ composer install
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+If the previous steps didn't throw any error, start your server's Apache and MySQL services and the application should be working at [http://localhost/srpago-test/public/](http://localhost/srpago-test/public/).
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+In case of problems with the Migration / databases configuration, the dump files for manual import can be found [here](https://github.com/bassmastaLK/srpago-test/blob/master/public/db).
+
+If the difficulties persist and local setup can't be done, the application is also available in my personal domain: [http://marruffomultimedia.com/srpago](http://marruffomultimedia.com/srpago).
 
 
 <!-- CONTACT -->
