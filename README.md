@@ -96,8 +96,6 @@ If the previous steps didn't throw any error, the application should be working 
 
 In case of problems with the Migration / databases configuration, the dump files for manual import can be found [here](https://github.com/bassmastaLK/srpago-test/blob/master/public/db).
 
-If the difficulties persist and local setup can't be done, the application is also available in my personal domain: [http://marruffomultimedia.com/srpago](http://marruffomultimedia.com/srpago).
-
 
 <!-- CONTACT -->
 ## Contact
