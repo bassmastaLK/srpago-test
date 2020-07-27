@@ -67,6 +67,10 @@ git clone https://github.com/bassmastaLK/srpago-test.git
 ```sh
 npm install
 ```
+3. Install Composer packages
+```sh
+composer install
+```
 
 
 
